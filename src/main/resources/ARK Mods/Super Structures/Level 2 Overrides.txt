@@ -1,0 +1,1 @@
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Campfire_C", EngramHidden=true)
