@@ -24,7 +24,9 @@ public class FileUtilities {
     public String readLine() {
         try {
             String line = bufferedReader.readLine();
-            log.info("Reading line: {}", line);
+//            if (null != line) {
+//                log.info("Reading line: {}", line);
+//            }
             return line;
         } catch (NullPointerException | IOException e) {
             log.error("Buffered reader instance variable is null or an IO exception occurred. Exception message: {} ", e.getMessage());
