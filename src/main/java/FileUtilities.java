@@ -45,6 +45,7 @@ public class FileUtilities {
         String line;
         int numberOfLinesToDelete = 1;
         while ((line = randomAccessFile.readLine()) != null) {
+            System.out.println("Next byte is " + randomAccessFile.readByte());
             if ("".equalsIgnoreCase(line)) {
                 numberOfLinesToDelete++;
             }

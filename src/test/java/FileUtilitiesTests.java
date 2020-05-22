@@ -39,11 +39,11 @@ public class FileUtilitiesTests {
         Assert.assertEquals(expectedLine, actualLine);
 
         Assert.assertEquals("", fileUtilities.readLine());
+        Assert.assertEquals("sup1", fileUtilities.readLine());
         Assert.assertEquals("", fileUtilities.readLine());
+        Assert.assertEquals("sup2", fileUtilities.readLine());
         Assert.assertEquals("", fileUtilities.readLine());
-        Assert.assertEquals("", fileUtilities.readLine());
-        Assert.assertEquals("", fileUtilities.readLine());
-        Assert.assertEquals("", fileUtilities.readLine());
+        Assert.assertEquals("sup3", fileUtilities.readLine());
         Assert.assertEquals("", fileUtilities.readLine());
 
         Assert.assertNull(fileUtilities.readLine());
@@ -55,7 +55,7 @@ public class FileUtilitiesTests {
     }
 
     @Test
-    public void deleteLastLineFromFileTest() throws IOException {
+    public void deleteLastLineFromFileTest() {
         fileUtilities.setBufferedReaderFromFile("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
 
         ReflectionTestUtils.invokeMethod(fileUtilities, "deleteLastLineFromFile", "I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
@@ -63,11 +63,11 @@ public class FileUtilitiesTests {
         Assert.assertEquals("hello I am a test file", fileUtilities.readLine());
         Assert.assertEquals("Can you read me?", fileUtilities.readLine());
         Assert.assertEquals("", fileUtilities.readLine());
+        Assert.assertEquals("sup1", fileUtilities.readLine());
         Assert.assertEquals("", fileUtilities.readLine());
+        Assert.assertEquals("sup2", fileUtilities.readLine());
         Assert.assertEquals("", fileUtilities.readLine());
-        Assert.assertEquals("", fileUtilities.readLine());
-        Assert.assertEquals("", fileUtilities.readLine());
-        Assert.assertEquals("", fileUtilities.readLine());
+        Assert.assertEquals("sup3", fileUtilities.readLine());
         Assert.assertNull(fileUtilities.readLine());
 
         addLinesBackToFileAfterTest();
@@ -82,7 +82,7 @@ public class FileUtilitiesTests {
         Assert.assertEquals("Can you read me?", fileUtilities.readLine());
         Assert.assertNull(fileUtilities.readLine());
 
-        addLinesBackToFileAfterTest();
+//        addLinesBackToFileAfterTest();
     }
 
     private void addLinesBackToFileAfterTest() {
@@ -93,10 +93,13 @@ public class FileUtilitiesTests {
             fileWriter.append("Can you read me?");
             fileWriter.append(System.getProperty("line.separator"));
             fileWriter.append(System.getProperty("line.separator"));
+            fileWriter.append("sup1");
             fileWriter.append(System.getProperty("line.separator"));
             fileWriter.append(System.getProperty("line.separator"));
+            fileWriter.append("sup2");
             fileWriter.append(System.getProperty("line.separator"));
             fileWriter.append(System.getProperty("line.separator"));
+            fileWriter.append("sup3");
             fileWriter.append(System.getProperty("line.separator"));
             fileWriter.append(System.getProperty("line.separator"));
             fileWriter.close();
