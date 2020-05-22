@@ -1,6 +1,0 @@
-OverrideNamedEngramEntries=(EngramClassName="EngramEntry_ThatchFloor_C", EngramHidden=true)
-OverrideNamedEngramEntries=(EngramClassName="EngramEntry_ThatchWall_C", EngramHidden=true)
-OverrideNamedEngramEntries=(EngramClassName="EngramEntry_ThatchCeiling_C", EngramHidden=true)
-OverrideNamedEngramEntries=(EngramClassName="EngramEntry_ThatchWallWithDoor_C", EngramHidden=true)
-OverrideNamedEngramEntries=(EngramClassName="EngramEntry_ThatchDoor_C", EngramHidden=true)
-OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StorageBox_Small_C", EngramHidden=true)
