@@ -53,18 +53,34 @@ public class FileUtilitiesTests {
     }
 
     @Test
-    public void deleteAllBlankLinesAtEndOfFileTest() throws IOException {
+    public void deleteLastLineFromFileTest() throws IOException {
         fileUtilities.setBufferedReaderFromFile("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
-        fileUtilities.deleteAllBlankLinesAtEndOfFile("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
+        fileUtilities.deleteLastLineFromFile("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
 
         Assert.assertEquals("hello I am a test file", fileUtilities.readLine());
+        Assert.assertEquals("Can you read me?", fileUtilities.readLine());
+        Assert.assertEquals("", fileUtilities.readLine());
+        Assert.assertEquals("", fileUtilities.readLine());
+        Assert.assertEquals("", fileUtilities.readLine());
+        Assert.assertEquals("", fileUtilities.readLine());
+        Assert.assertEquals("", fileUtilities.readLine());
+        Assert.assertEquals("", fileUtilities.readLine());
         Assert.assertNull(fileUtilities.readLine());
 
         //Add line back after tests so we can run again
 
-        FileWriter fileWriter = new FileWriter("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt", true);
+        FileWriter fileWriter = new FileWriter("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
+        fileWriter.append("hello I am a test file");
         fileWriter.append(System.getProperty("line.separator"));
         fileWriter.append("Can you read me?");
+        fileWriter.append(System.getProperty("line.separator"));
+        fileWriter.append(System.getProperty("line.separator"));
+        fileWriter.append(System.getProperty("line.separator"));
+        fileWriter.append(System.getProperty("line.separator"));
+        fileWriter.append(System.getProperty("line.separator"));
+        fileWriter.append(System.getProperty("line.separator"));
+        fileWriter.append(System.getProperty("line.separator"));
+        fileWriter.append(System.getProperty("line.separator"));
         fileWriter.close();
     }
 }

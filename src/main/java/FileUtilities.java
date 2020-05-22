@@ -27,7 +27,7 @@ public class FileUtilities {
         return null;
     }
 
-    public void deleteAllBlankLinesAtEndOfFile(String file) throws IOException {
+    public void deleteLastLineFromFile(String file) throws IOException {
         RandomAccessFile randomAccessFile = new RandomAccessFile(file, "rw");
         long length = randomAccessFile.length();
         byte b;
@@ -38,5 +38,9 @@ public class FileUtilities {
         } while(b != 10);
         randomAccessFile.setLength(length - 1);
         randomAccessFile.close();
+    }
+
+    public void deleteAllLinesThatAreBlankAtEndOfFile(String file) {
+
     }
 }
