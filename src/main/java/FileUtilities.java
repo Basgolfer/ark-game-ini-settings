@@ -43,14 +43,18 @@ public class FileUtilities {
         randomAccessFile = new RandomAccessFile(file, "rw");
         String line;
         while ((line = randomAccessFile.readLine()) != null) {
+            System.out.println("line is: " + line);
             if ("".equalsIgnoreCase(line)) {
                 System.out.println("empty line");
                 deleteLastLineFromFile();
-            }
-            else {
-                System.out.println(line);
+                deleteAllLinesThatAreBlankAtEndOfFile(file);
             }
         }
+        deleteLastLineFromFile();
         randomAccessFile.close();
+    }
+
+    public void closeFileStream() {
+
     }
 }
