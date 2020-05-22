@@ -6,6 +6,7 @@ import java.io.*;
 public class FileUtilities {
 
     private BufferedReader bufferedReader;
+    private RandomAccessFile randomAccessFile;
 
     public Boolean setBufferedReaderFromFile(String fileName) {
         try {
@@ -27,8 +28,7 @@ public class FileUtilities {
         return null;
     }
 
-    public void deleteLastLineFromFile(String file) throws IOException {
-        RandomAccessFile randomAccessFile = new RandomAccessFile(file, "rw");
+    private void deleteLastLineFromFile() throws IOException {
         long length = randomAccessFile.length();
         byte b;
         do {
@@ -37,10 +37,20 @@ public class FileUtilities {
             b = randomAccessFile.readByte();
         } while(b != 10);
         randomAccessFile.setLength(length - 1);
-        randomAccessFile.close();
     }
 
-    public void deleteAllLinesThatAreBlankAtEndOfFile(String file) {
-
+    public void deleteAllLinesThatAreBlankAtEndOfFile(String file) throws IOException {
+        randomAccessFile = new RandomAccessFile(file, "rw");
+        String line;
+        while ((line = randomAccessFile.readLine()) != null) {
+            if ("".equalsIgnoreCase(line)) {
+                System.out.println("empty line");
+                deleteLastLineFromFile();
+            }
+            else {
+                System.out.println(line);
+            }
+        }
+        randomAccessFile.close();
     }
 }

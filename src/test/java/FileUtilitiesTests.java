@@ -1,9 +1,11 @@
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.springframework.test.util.ReflectionTestUtils;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.RandomAccessFile;
 
 public class FileUtilitiesTests {
 
@@ -55,7 +57,9 @@ public class FileUtilitiesTests {
     @Test
     public void deleteLastLineFromFileTest() throws IOException {
         fileUtilities.setBufferedReaderFromFile("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
-        fileUtilities.deleteLastLineFromFile("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
+        RandomAccessFile randomAccessFile = new RandomAccessFile("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt", "rw");
+        ReflectionTestUtils.setField(fileUtilities, "randomAccessFile", randomAccessFile);
+        ReflectionTestUtils.invokeMethod(fileUtilities, "deleteLastLineFromFile");
 
         Assert.assertEquals("hello I am a test file", fileUtilities.readLine());
         Assert.assertEquals("Can you read me?", fileUtilities.readLine());
@@ -67,20 +71,38 @@ public class FileUtilitiesTests {
         Assert.assertEquals("", fileUtilities.readLine());
         Assert.assertNull(fileUtilities.readLine());
 
-        //Add line back after tests so we can run again
+        addLinesBackToFileAfterTest();
+    }
 
-        FileWriter fileWriter = new FileWriter("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
-        fileWriter.append("hello I am a test file");
-        fileWriter.append(System.getProperty("line.separator"));
-        fileWriter.append("Can you read me?");
-        fileWriter.append(System.getProperty("line.separator"));
-        fileWriter.append(System.getProperty("line.separator"));
-        fileWriter.append(System.getProperty("line.separator"));
-        fileWriter.append(System.getProperty("line.separator"));
-        fileWriter.append(System.getProperty("line.separator"));
-        fileWriter.append(System.getProperty("line.separator"));
-        fileWriter.append(System.getProperty("line.separator"));
-        fileWriter.append(System.getProperty("line.separator"));
-        fileWriter.close();
+    @Test
+    public void deleteAllLinesThatAreBlankAtEndOfFileTest() throws IOException {
+        fileUtilities.setBufferedReaderFromFile("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
+        fileUtilities.deleteAllLinesThatAreBlankAtEndOfFile("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
+
+        Assert.assertEquals("hello I am a test file", fileUtilities.readLine());
+        Assert.assertEquals("Can you read me?", fileUtilities.readLine());
+        Assert.assertNull(fileUtilities.readLine());
+
+        //addLinesBackToFileAfterTest();
+    }
+
+    private void addLinesBackToFileAfterTest() {
+        try {
+            FileWriter fileWriter = new FileWriter("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
+            fileWriter.append("hello I am a test file");
+            fileWriter.append(System.getProperty("line.separator"));
+            fileWriter.append("Can you read me?");
+            fileWriter.append(System.getProperty("line.separator"));
+            fileWriter.append(System.getProperty("line.separator"));
+            fileWriter.append(System.getProperty("line.separator"));
+            fileWriter.append(System.getProperty("line.separator"));
+            fileWriter.append(System.getProperty("line.separator"));
+            fileWriter.append(System.getProperty("line.separator"));
+            fileWriter.append(System.getProperty("line.separator"));
+            fileWriter.append(System.getProperty("line.separator"));
+            fileWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
