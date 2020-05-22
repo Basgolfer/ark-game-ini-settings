@@ -28,7 +28,7 @@ public class RegexUtilitiesTests {
 
     @Test
     public void lineMatchEngramPatternTest_whenLineIsIncorrect() {
-        String line = "I won't watch the pattern";
+        String line = "I won't match the pattern";
         Assert.assertFalse(regexUtilities.lineMatchesEngramPattern(line));
     }
 }

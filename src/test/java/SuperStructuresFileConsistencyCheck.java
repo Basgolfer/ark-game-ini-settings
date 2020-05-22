@@ -40,6 +40,6 @@ public class SuperStructuresFileConsistencyCheck {
             fileWriter.write(System.getProperty("line.separator"));
         }
         fileWriter.close();
-        //fileUtilities.deleteAllLinesThatAreBlankAtEndOfFile("I:\\ark-game-ini-settings\\src\\main\\resources\\ARK Mods\\Super Structures\\_Master_File.txt");
+        fileUtilities.deleteAllLinesThatAreBlankAtEndOfFile("I:\\ark-game-ini-settings\\src\\main\\resources\\ARK Mods\\Super Structures\\_Master_File.txt");
     }
 }
