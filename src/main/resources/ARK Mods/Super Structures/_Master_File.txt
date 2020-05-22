@@ -69,7 +69,6 @@ OverrideNamedEngramEntries=(EngramClassName="EngramEntry_WoodTrapdoor_C", Engram
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_WoodSlopedWall_Left_C", EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_WoodSlopedWall_Left_C", EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_WoodSlopedWall_Left_C", EngramHidden=true)
-OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Fishbasket_C", EngramHidden=true)
 
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_WoodStairs_C", EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_WoodRailing_C", EngramHidden=true)
@@ -115,6 +114,7 @@ OverrideNamedEngramEntries=(EngramClassName="EngramEntry_AdobePillar_C", EngramH
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MediumPillar_Adobe_C", EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_LargePillar_Adobe_C", EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DynamicPillar_Adobe_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StonePipeStraight_C", EngramHidden=true)
 
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_WoodGateway_C", EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_WoodGate_C", EngramHidden=true)
