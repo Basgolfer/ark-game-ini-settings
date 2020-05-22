@@ -1,0 +1,7 @@
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_RopeLadder_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StorageBox_Large_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_AdobeLadder_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_AdobeRamp_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_AdobeCeilingWithTrapdoor_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_AdobeTrapdoor_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Ramp_Adobe_C", EngramHidden=true)

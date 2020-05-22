@@ -1,0 +1,8 @@
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_WoodSpikeWall_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_WoodCeilingWithTrapdoor_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_WoodLadder_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Vessel_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_WoodTrapdoor_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_WoodSlopedWall_Left_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_WoodSlopedWall_Left_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_WoodSlopedWall_Left_C", EngramHidden=true)
