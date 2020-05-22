@@ -1,0 +1,4 @@
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_AdobeWallWithWindow_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_AdobeWindow_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_AnvilBench_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Forge_C", EngramHidden=true)
