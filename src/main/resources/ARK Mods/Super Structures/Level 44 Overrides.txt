@@ -1,0 +1,5 @@
+sloped greenhouse wall left
+sloped greenhouse wall right
+sloped greenhouse roof
+greenhouse window
+greenhouse triangle roof

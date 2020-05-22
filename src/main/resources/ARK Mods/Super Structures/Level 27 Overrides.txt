@@ -1,0 +1,6 @@
+sloped stone wall left
+sloped stone wall right
+sloped stone roof
+stone dinosaur gateway
+reinforced dinosaur gate
+stone triangle roof

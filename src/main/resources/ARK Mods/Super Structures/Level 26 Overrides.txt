@@ -1,0 +1,5 @@
+medium crop plot
+stone hatchframe
+stone windowframe
+reinforced trapdoor
+reinforced window
