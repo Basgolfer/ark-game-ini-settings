@@ -1,9 +1,6 @@
 import lombok.extern.slf4j.Slf4j;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 @Slf4j
 public class FileUtilities {
@@ -23,14 +20,23 @@ public class FileUtilities {
 
     public String readLine() {
         try {
-            String line = bufferedReader.readLine();
-//            if (null != line) {
-//                log.info("Reading line: {}", line);
-//            }
-            return line;
+            return bufferedReader.readLine();
         } catch (NullPointerException | IOException e) {
             log.error("Buffered reader instance variable is null or an IO exception occurred. Exception message: {} ", e.getMessage());
         }
         return null;
+    }
+
+    public void deleteAllBlankLinesAtEndOfFile(String file) throws IOException {
+        RandomAccessFile randomAccessFile = new RandomAccessFile(file, "rw");
+        long length = randomAccessFile.length();
+        byte b;
+        do {
+            length -= 1;
+            randomAccessFile.seek(length);
+            b = randomAccessFile.readByte();
+        } while(b != 10);
+        randomAccessFile.setLength(length - 1);
+        randomAccessFile.close();
     }
 }
