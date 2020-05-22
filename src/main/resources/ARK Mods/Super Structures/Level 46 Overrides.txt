@@ -1,0 +1,9 @@
+metal railing
+metal pillar
+metal stairecase
+metal windowfraame
+metal window
+ss medium metal pillar
+ss large metal pillar
+ss glass half wall
+ss dynamic metal pillar

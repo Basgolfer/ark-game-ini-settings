@@ -1,0 +1,4 @@
+stone staircase
+stone railing
+stone fireplace
+large stone wall

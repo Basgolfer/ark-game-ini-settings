@@ -1,0 +1,3 @@
+greenhouse wall
+greenhouse ceiling
+greenhouse triangle ceiling

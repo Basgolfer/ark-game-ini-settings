@@ -1,0 +1,8 @@
+electrical generator
+straight electrical cable
+electrical outlet
+inclined electrical cable
+vertical electrical cable
+electrical cable intersection
+large metal wall
+flexible electrical cable

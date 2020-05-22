@@ -1,0 +1,14 @@
+ss large metal wall
+ss large glass wall
+ss xl metal wall
+ss xl glass wall
+metal triangle foundation
+metal foundatoin
+metal wall
+metal doorframe
+metal ceiling
+metal door
+metal triangle ceiling
+ss metal storage box??
+ss dynamic gateway??
+ss dynamic gate???

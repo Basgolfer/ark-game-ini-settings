@@ -1,0 +1,8 @@
+auto turret
+ss ballista turret?
+ss cannon turret?
+ss flame turret?
+ss minigun turret?
+ss rocket turret?
+ss tranq turret?
+ss laser turret?

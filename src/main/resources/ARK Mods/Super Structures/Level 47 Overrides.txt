@@ -1,0 +1,7 @@
+sloped metal wall left
+sloped metal wall right
+sloped metal roof
+metal ramp
+metal catwalk
+metal stair
+metal triangle roof

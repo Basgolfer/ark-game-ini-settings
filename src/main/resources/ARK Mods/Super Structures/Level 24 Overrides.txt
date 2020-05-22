@@ -1,0 +1,10 @@
+stone wall
+stone foundation
+stone ceiling
+stone doorframe
+reinforced wooden door
+stone stairs
+stone triangle ceiling
+stone triangle foundation
+ss large stone wall
+ss xl stone wall
