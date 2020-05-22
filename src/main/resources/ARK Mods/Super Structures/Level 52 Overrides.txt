@@ -1,4 +1,4 @@
-metal dinosaur gateway
-metal dinosaur gate
-metal double door
-metal double doorframe
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalGateway_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalGate_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DoubleDoor_Metal_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DoubleDoorframe_Metal_C", EngramHidden=true)

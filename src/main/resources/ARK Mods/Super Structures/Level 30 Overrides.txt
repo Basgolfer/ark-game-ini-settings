@@ -1,5 +1,4 @@
-adobe dinosaur gateway
-adobe dinosaur gate
-giant stone hatchframe
-giant reinforced trapdoor
-platform smithy???
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_AdobeGate_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_AdobeGateway_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneCeilingWithTrapdoorGiant_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneTrapdoorGiant_C", EngramHidden=true)

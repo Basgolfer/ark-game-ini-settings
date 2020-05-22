@@ -1,5 +1,5 @@
-medium crop plot
-stone hatchframe
-stone windowframe
-reinforced trapdoor
-reinforced window
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_CropPlot_Medium_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneCeilingWithTrapdoor_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneWallWithWindow_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneTrapdoor_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneWindow_C", EngramHidden=true)

@@ -1,4 +1,1 @@
-stone cliff platform
-large stone platform
-large stone cliff platform
-????
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneCliffPlatform_C", EngramHidden=true)

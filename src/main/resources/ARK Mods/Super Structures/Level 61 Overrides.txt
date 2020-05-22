@@ -1,1 +1,1 @@
-air conditioner
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_AirConditioner_C", EngramHidden=true)

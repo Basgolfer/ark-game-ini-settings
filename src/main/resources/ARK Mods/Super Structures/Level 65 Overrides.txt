@@ -1,5 +1,4 @@
-ss reupulser plate???
-ss tek elevator?
-ss tek gas collector?
-ss triangle tek elevator?
-enforceer defence shielld??
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Ceiling_Repulser_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_TriCeiling_TekElevator_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_GasCollectorTek_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Ceiling_TekElevator_C", EngramHidden=true)

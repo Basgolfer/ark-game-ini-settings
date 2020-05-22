@@ -1,5 +1,5 @@
-sloped greenhouse wall left
-sloped greenhouse wall right
-sloped greenhouse roof
-greenhouse window
-greenhouse triangle roof
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_GreenhouseRoof_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_GreenhouseSlopedWall_Left_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_GreenhouseSlopedWall_Right_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_GreenhouseWindow_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_TriRoof_Greenhouse_C", EngramHidden=true)

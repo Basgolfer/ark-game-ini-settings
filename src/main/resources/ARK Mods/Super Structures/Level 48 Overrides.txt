@@ -1,6 +1,6 @@
-fabricator
-metal hatchframe
-metal trapdoor
-metal fence foundatoin
-metal ladder
-metal fence support
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Fabricator_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalCeilingWithTrapdoor_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalTrapdoor_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalFenceFoundation_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalLadder_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_FenceSupport_Metal_C", EngramHidden=true)

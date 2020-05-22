@@ -1,10 +1,10 @@
-stone wall
-stone foundation
-stone ceiling
-stone doorframe
-reinforced wooden door
-stone stairs
-stone triangle ceiling
-stone triangle foundation
-ss large stone wall
-ss xl stone wall
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneWall_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneFloor_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneCeiling_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneWallWithDoor_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneDoor_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Ramp_Stone_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_TriCeiling_Stone_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_TriFoundation_Stone_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_LargeWall_StoneSP_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_XLWall_Stone_C", EngramHidden=true)

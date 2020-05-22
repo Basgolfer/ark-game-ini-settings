@@ -1,4 +1,4 @@
-behemoth stone dinosaur gateway
-behemoth reinforced dinosaur gate
-reinforced double door
-stone double doorframe
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneGateway_Large_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneGateLarge_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DoubleDoor_Stone_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DoubleDoorframe_Stone_C", EngramHidden=true)

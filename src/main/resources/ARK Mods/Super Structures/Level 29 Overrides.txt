@@ -1,1 +1,1 @@
-metal spike wall
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalSpikeWall_C", EngramHidden=true)

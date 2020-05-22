@@ -1,4 +1,4 @@
-stone staircase
-stone railing
-stone fireplace
-large stone wall
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneStairs_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneRailing_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Fireplace_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_LargeWall_Stone_C", EngramHidden=true)

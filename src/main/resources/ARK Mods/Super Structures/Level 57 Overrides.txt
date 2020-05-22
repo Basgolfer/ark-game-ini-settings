@@ -1,3 +1,2 @@
-behemoth gateway
-behemoth gate
-motor raft extension?
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalGateway_Large_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalGate_Large_C", EngramHidden=true)

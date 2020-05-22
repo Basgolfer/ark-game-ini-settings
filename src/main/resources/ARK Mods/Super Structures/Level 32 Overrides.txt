@@ -1,1 +1,1 @@
-large taxidermy base
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_TaxidermyBase_Large_C", EngramHidden=true)

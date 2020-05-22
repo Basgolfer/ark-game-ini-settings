@@ -1,1 +1,1 @@
-spray painter
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SprayPainter_C", EngramHidden=true)

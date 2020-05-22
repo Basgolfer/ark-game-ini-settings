@@ -1,9 +1,9 @@
-metal railing
-metal pillar
-metal stairecase
-metal windowfraame
-metal window
-ss medium metal pillar
-ss large metal pillar
-ss glass half wall
-ss dynamic metal pillar
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalRailing_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalPillar_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalStairs_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalWallWithWindow_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalWindow_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MediumPillar_Metal_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_LargePillar_Metal_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DynamicPillar_Metal_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Railing_Glass_C", EngramHidden=true)
