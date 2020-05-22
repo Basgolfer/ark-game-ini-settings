@@ -57,9 +57,8 @@ public class FileUtilitiesTests {
     @Test
     public void deleteLastLineFromFileTest() throws IOException {
         fileUtilities.setBufferedReaderFromFile("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
-        RandomAccessFile randomAccessFile = new RandomAccessFile("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt", "rw");
-        ReflectionTestUtils.setField(fileUtilities, "randomAccessFile", randomAccessFile);
-        ReflectionTestUtils.invokeMethod(fileUtilities, "deleteLastLineFromFile");
+
+        ReflectionTestUtils.invokeMethod(fileUtilities, "deleteLastLineFromFile", "I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
 
         Assert.assertEquals("hello I am a test file", fileUtilities.readLine());
         Assert.assertEquals("Can you read me?", fileUtilities.readLine());
@@ -83,7 +82,7 @@ public class FileUtilitiesTests {
         Assert.assertEquals("Can you read me?", fileUtilities.readLine());
         Assert.assertNull(fileUtilities.readLine());
 
-        //addLinesBackToFileAfterTest();
+        addLinesBackToFileAfterTest();
     }
 
     private void addLinesBackToFileAfterTest() {
