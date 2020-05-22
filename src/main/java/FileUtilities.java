@@ -45,20 +45,15 @@ public class FileUtilities {
         String line;
         int numberOfLinesToDelete = 1;
         while ((line = randomAccessFile.readLine()) != null) {
-            System.out.println("line is " + line);
             try {
-                if ("".equalsIgnoreCase(line)) {
-                    randomAccessFile.readByte();
+                if ("".equalsIgnoreCase(line) && randomAccessFile.readByte() == 13) {
                     randomAccessFile.seek(randomAccessFile.getFilePointer() - 1);
+                    numberOfLinesToDelete++;
                 }
             } catch (EOFException e) {
-                System.out.println("increasing");
                 numberOfLinesToDelete++;
-                System.out.println("end of file exception");
-                e.printStackTrace();
             }
         }
-        System.out.println("Number of lines to delete: " + numberOfLinesToDelete);
         for (int i = 0; i < numberOfLinesToDelete; i++) {
             deleteLastLineFromFile(file);
         }

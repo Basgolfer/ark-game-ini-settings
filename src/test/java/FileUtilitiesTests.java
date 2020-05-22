@@ -77,23 +77,23 @@ public class FileUtilitiesTests {
         addLinesBackToFileAfterTest();
     }
 
-//    @Test
-//    public void deleteAllLinesThatAreBlankAtEndOfFileTest() throws IOException {
-//        fileUtilities.setBufferedReaderFromFile("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
-//        fileUtilities.deleteAllLinesThatAreBlankAtEndOfFile("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
-//
-//        Assert.assertEquals("hello I am a test file", fileUtilities.readLine());
-//        Assert.assertEquals("Can you read me?", fileUtilities.readLine());
-//        Assert.assertEquals("", fileUtilities.readLine());
-//        Assert.assertEquals("sup1", fileUtilities.readLine());
-//        Assert.assertEquals("", fileUtilities.readLine());
-//        Assert.assertEquals("sup2", fileUtilities.readLine());
-//        Assert.assertEquals("", fileUtilities.readLine());
-//        Assert.assertEquals("sup3", fileUtilities.readLine());
-//        Assert.assertNull(fileUtilities.readLine());
-//
-//        addLinesBackToFileAfterTest();
-//    }
+    @Test
+    public void deleteAllLinesThatAreBlankAtEndOfFileTest() throws IOException {
+        fileUtilities.setBufferedReaderFromFile("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
+        fileUtilities.deleteAllLinesThatAreBlankAtEndOfFile("I:\\ark-game-ini-settings\\src\\test\\resources\\test file.txt");
+
+        Assert.assertEquals("hello I am a test file", fileUtilities.readLine());
+        Assert.assertEquals("Can you read me?", fileUtilities.readLine());
+        Assert.assertEquals("", fileUtilities.readLine());
+        Assert.assertEquals("sup1", fileUtilities.readLine());
+        Assert.assertEquals("", fileUtilities.readLine());
+        Assert.assertEquals("sup2", fileUtilities.readLine());
+        Assert.assertEquals("", fileUtilities.readLine());
+        Assert.assertEquals("sup3", fileUtilities.readLine());
+        Assert.assertNull(fileUtilities.readLine());
+
+        addLinesBackToFileAfterTest();
+    }
 
     private void addLinesBackToFileAfterTest() {
         try {
