@@ -1,2 +1,2 @@
-behemoth adobe dinosaur gateway
-behemoth adobe dinosaur gate
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_AdobeGateway_Large_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_AdobeGate_Large_C", EngramHidden=true)

@@ -1,14 +1,13 @@
-ss large metal wall
-ss large glass wall
-ss xl metal wall
-ss xl glass wall
-metal triangle foundation
-metal foundatoin
-metal wall
-metal doorframe
-metal ceiling
-metal door
-metal triangle ceiling
-ss metal storage box??
-ss dynamic gateway??
-ss dynamic gate???
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_XLWall_Metal_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_XLWall_Glass_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_LargeWall_MetalSP_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_LargeWall_Glass_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_TriFoundation_Metal_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalFloor_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalWall_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalWallWithDoor_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalCeiling_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalDoor_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StorageMetal_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Gateway_Dynamic_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Gate_Dynamic_C", EngramHidden=true)

@@ -1,8 +1,1 @@
-auto turret
-ss ballista turret?
-ss cannon turret?
-ss flame turret?
-ss minigun turret?
-ss rocket turret?
-ss tranq turret?
-ss laser turret?
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Turret_C", EngramHidden=true)

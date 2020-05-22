@@ -1,8 +1,8 @@
-ss blueprint maker
-ss small stone pillar
-ss medium stone pillar
-ss large stone pillar
-ss dynamic stone pillar
-stone fence foundation
-stone pillar
-stone fence support
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_BlueprintMaker_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DynamicPillar_Stone_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_LargePillar_Stone_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SmallPillar_Stone_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MediumPillar_Stone_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StoneFenceFoundation_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_FenceSupport_Stone_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StonePillar_C", EngramHidden=true)

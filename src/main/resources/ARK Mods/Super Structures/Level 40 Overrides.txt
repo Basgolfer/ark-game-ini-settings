@@ -1,7 +1,7 @@
-metal irrigation pipe - tap
-metal irrigation pipe - flexible
-metal irrigation pipe - intake
-metal irrigation ippe - intersection
-metal irrigation pipe - inclinced
-metal irrigation pipe - vertical
-ss mannequin??
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalPipeTap_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_PipeFlex_Metal_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalPipeIntake_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalPipeIntersection_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalPipeIncline_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalPipeVertical_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Mannequin_C", EngramHidden=true)

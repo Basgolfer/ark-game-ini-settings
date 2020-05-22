@@ -1,3 +1,3 @@
-giant metal hatchframe
-giant metal trapdoor
-bunk bed
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalCeilingWithTrapdoorGiant_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalTrapdoorGiant_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_ModernBed_C", EngramHidden=true)

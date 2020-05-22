@@ -1,2 +1,2 @@
-greenhouse doorframe
-greenhouse door
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_GreenhouseWallWithDoor_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_GreenhouseDoor_C", EngramHidden=true)

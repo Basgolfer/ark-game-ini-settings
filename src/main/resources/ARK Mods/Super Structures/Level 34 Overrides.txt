@@ -1,2 +1,2 @@
-giant adobe hatchframe
-giant adobe trapdoor
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_AdobeCeilingWithDoorWay_Giant_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_AdobeCeilingDoorGiant_C", EngramHidden=true)

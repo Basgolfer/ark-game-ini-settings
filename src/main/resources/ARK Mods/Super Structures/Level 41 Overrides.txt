@@ -1,1 +1,1 @@
-metal water reservoir
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_WaterTankMetal_C", EngramHidden=true)

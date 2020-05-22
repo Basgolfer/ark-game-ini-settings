@@ -1,2 +1,2 @@
-adobe double door
-adobe double doorframe
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DoubleDoor_Adobe_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DoubleDoorframe_Adobe_C", EngramHidden=true)

@@ -1,7 +1,7 @@
-sloped metal wall left
-sloped metal wall right
-sloped metal roof
-metal ramp
-metal catwalk
-metal stair
-metal triangle roof
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalRoof_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalSlopedWall_Left_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalSlopedWall_Right_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalRamp_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalCatwalk_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Ramp_Metal_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_TriRoof_Metal_C", EngramHidden=true)

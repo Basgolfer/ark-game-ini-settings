@@ -1,8 +1,8 @@
-electrical generator
-straight electrical cable
-electrical outlet
-inclined electrical cable
-vertical electrical cable
-electrical cable intersection
-large metal wall
-flexible electrical cable
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_PowerGenerator_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_PowerCableStraight_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_PowerOutlet_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_PowerCableIncline_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_PowerCableVertical_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_PowerCableIntersection_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_LargeWall_Metal_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Wire_Flex_C", EngramHidden=true)

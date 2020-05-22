@@ -1,1 +1,1 @@
-industrial grinder
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Grinder_C", EngramHidden=true)

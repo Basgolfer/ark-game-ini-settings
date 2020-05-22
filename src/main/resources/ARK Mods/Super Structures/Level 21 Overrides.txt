@@ -1,2 +1,2 @@
-wall torch
-medium taxidermy base
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_WallTorch_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_TaxidermyBase_Medium_C", EngramHidden=true)
