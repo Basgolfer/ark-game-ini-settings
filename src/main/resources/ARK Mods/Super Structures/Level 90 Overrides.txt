@@ -1,0 +1,1 @@
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DyeStation_C", EngramHidden=true)

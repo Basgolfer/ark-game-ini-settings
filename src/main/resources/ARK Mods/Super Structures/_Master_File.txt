@@ -375,3 +375,36 @@ OverrideNamedEngramEntries=(EngramClassName="EngramEntry_GasCollectorTek_C", Eng
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Ceiling_TekElevator_C", EngramHidden=true)
 
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Turret_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_JumpPad_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_ElevatorTrack_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_ElevatorPlatformSmall_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_ElevatorPlatformMedium_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_TekBridge_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_ElevatorPlatformLarge_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StorageBox_Huge_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Incinerator_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_IndustrialForge_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_ChemBench_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_GachaGavager_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_CryoFridge_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_IndustrialCookingPot_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DyeStation_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DroneTerminal_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_CrystalCracker_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_HeavyTurret_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_ChargeStation_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Vivarium_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_AutoCrafter_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_PlanetShield_C", EngramHidden=true)

@@ -1,0 +1,1 @@
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_ChemBench_C", EngramHidden=true)
