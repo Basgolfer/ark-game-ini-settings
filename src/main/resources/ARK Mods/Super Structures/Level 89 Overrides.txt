@@ -1,0 +1,1 @@
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_IndustrialCookingPot_C", EngramHidden=true)
