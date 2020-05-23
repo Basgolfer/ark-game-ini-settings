@@ -7,3 +7,4 @@ OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MediumPillar_Metal_C", 
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_LargePillar_Metal_C", EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DynamicPillar_Metal_C", EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Railing_Glass_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SmallPillar_Metal_C", EngramHidden=true)
