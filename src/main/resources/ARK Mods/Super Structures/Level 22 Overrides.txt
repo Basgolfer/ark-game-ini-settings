@@ -1,2 +1,3 @@
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DoubleDoor_Adobe_C", EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DoubleDoorframe_Adobe_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_DinoLeash_C", EngramHidden=true)

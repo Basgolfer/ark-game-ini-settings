@@ -14,3 +14,75 @@ OverrideNamedEngramEntries=(EngramClassName="EngramEntry_TransferTool_C", Engram
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_CommandTool_C", EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_InventoryAssistant_C", EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Pillarator_C", EngramHidden=true)
+
+
+
+
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StonePick_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Torch_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_NotePaper_C", EngramHidden=true)
+
+
+EngramEntry_TekTrough_C
+EngramEntry_TekTeleporter_C -> doesn't have SS Equivelent
+EngramEntry_TekLight_C
+EngramEntry_TekBed_C
+EngramEntry_DoubleDoor_Tek_C
+EngramEntry_DoubleDoorframe_Tek_C
+EngramEntry_FenceSupport_Tek_C
+EngramEntry_LargeWall_Tek_C
+ss large tek wall
+EngramEntry_TekStairs_C
+EngramEntry_Ramp_Tek_C
+EngramEntry_TriCeiling_Tek_C
+EngramEntry_TriFoundation_Tek_C
+EngramEntry_TriRoof_Tek_C
+EngramEntry_TekWindow_C
+EngramEntry_TekWallWithWindow_C
+EngramEntry_TekRoof_C
+EngramEntry_TekSlopedWall_Left_C
+EngramEntry_TekSlopedWall_Right_C
+EngramEntry_TekRailing_C
+EngramEntry_TekFenceFoundation_C
+EngramEntry_TekGenerator_C
+EngramEntry_TekCeilingWithTrapdoor_C
+EngramEntry_TekDoor_C
+EngramEntry_TekWallWithDoor_C
+EngramEntry_TekFloor_C
+EngramEntry_TekLadder_C
+EngramEntry_TekPillar_C
+ss small tek pillar
+ss medium tek pillar
+ss large tek pillar
+ss dynamic tek pillar
+EngramEntry_TekRamp_C
+EngramEntry_TekTrapdoor_C
+EngramEntry_TekWall_C
+ss xl tek wall
+EngramEntry_TekReplicator_C
+EngramEntry_TurretTek_C
+EngramEntry_TekTransmitter_C
+
+tek forcefield -> doesn't have SS Equivelent
+EngramEntry_Tek_Gate_C
+EngramEntry_Tek_Gategrame_C
+EngramEntry_Tek_Gate_Large_C
+EngramEntry_Tek_Gategrame_Large_C
+EngramEntry_TekCatwalk_C
+EngramEntry_TekCeiling_C
+EngramEntry_TekATV_C
+EngramEntry_DedicatedStorage_C
+ss dedicated storage intake
+ss tek storage
+EngramEntry_TekAlarm_C
+EngramEntry_HoverSkiff_C
+ss large forcefield wall
+ss xl forcefield wall
+ss mutator? what is that
+ss shield post? what is that
+ss charge injection? what is that?
+ss element catalyzer? what is that?
+vaccum compartment
+vaccum compartment moonpool
+cloning chamber

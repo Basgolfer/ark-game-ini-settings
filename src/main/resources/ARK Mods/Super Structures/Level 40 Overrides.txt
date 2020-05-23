@@ -5,3 +5,4 @@ OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalPipeIntersection_C
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalPipeIncline_C", EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalPipeVertical_C", EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Mannequin_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalPipeStraight_C", EngramHidden=true)

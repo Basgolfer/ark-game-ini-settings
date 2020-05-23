@@ -11,3 +11,4 @@ OverrideNamedEngramEntries=(EngramClassName="EngramEntry_MetalDoor_C", EngramHid
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_StorageMetal_C", EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Gateway_Dynamic_C", EngramHidden=true)
 OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Gate_Dynamic_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_TriCeiling_Metal_C", EngramHidden=true)
