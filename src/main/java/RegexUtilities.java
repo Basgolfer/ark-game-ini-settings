@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 @Slf4j
 public class RegexUtilities {
 
-    private static final String regex = "OverrideNamedEngramEntries=\\(EngramClassName=\"EngramEntry_(?<EngramEntry>\\w+_C)\", EngramHidden=true\\)";
+    private static final String regex = "OverrideNamedEngramEntries=\\(EngramClassName=\"EngramEntry_(?<EngramEntry>\\w+_C)\", EngramHidden=(?<engramHidden>(?:true|false))(?:, EngramLevelRequirement=(?<EngramLevelRequirement>\\d+)|\\))(?:\\)|)";
 
     private final Pattern pattern;
 

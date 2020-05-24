@@ -31,4 +31,10 @@ public class RegexUtilitiesTests {
         String line = "I won't match the pattern";
         Assert.assertFalse(regexUtilities.lineMatchesEngramPattern(line));
     }
+
+    @Test
+    public void lineMatchEngramPatternForTrikeSaddle() {
+        String line = "OverrideNamedEngramEntries=(EngramClassName=\"EngramEntry_Saddle_Trike_C\", EngramHidden=false, EngramLevelRequirement=16)";
+        Assert.assertTrue(regexUtilities.lineMatchesEngramPattern(line));
+    }
 }

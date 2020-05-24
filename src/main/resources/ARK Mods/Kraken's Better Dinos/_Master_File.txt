@@ -1,0 +1,22 @@
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Saddle_Stygi_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Fishbasket_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Saddle_Pachyrhino1Seater_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Saddle_Diplodocus3Seater_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Saddle_Styrac_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_RollratStarterSaddle_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Saddle_Purlovia_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SharkRepel_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_ValyrianReins_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_CorruptedCostumeBD_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Saddle_Liop_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Saddle_Direwolf_C", EngramHidden=true)
+
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Saddle_Enforcer_C", EngramHidden=true)

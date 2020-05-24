@@ -1,4 +1,3 @@
-shark repellant
-valyrian reins
-paracer platfrom extension
-corrupted dino costume?
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_SharkRepel_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_ValyrianReins_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_CorruptedCostumeBD_C", EngramHidden=true)
