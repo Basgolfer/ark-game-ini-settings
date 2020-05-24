@@ -1,2 +1,1 @@
-hide actrual fishbasket
-OverrideNamedEngramEntries=(EngramClassName="EngramEntry_BDWorkbench_C", EngramHidden=true)
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Fishbasket_C", EngramHidden=true)

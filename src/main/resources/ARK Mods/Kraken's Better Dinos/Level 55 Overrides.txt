@@ -1,3 +1,1 @@
-
-direwolf saddle?
-unstable element shard?
+OverrideNamedEngramEntries=(EngramClassName="EngramEntry_Saddle_Direwolf_C", EngramHidden=true)
